@@ -1,0 +1,361 @@
+#welcome{
+    padding: 20px;
+    background-color: #fff;
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: SignikaLight, sans-serif;
+    
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#loadMore{
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16pt;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+#commentsHolder{
+    overflow: hidden;
+    background-color: #ddd;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    height: 8px;
+    text-align: right;
+    
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -khtml-border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#commentsFrame{
+    margin-top: 26px;
+    margin-bottom: 0px;
+    width: 710px;
+    height: 1px;
+    border: 0px;
+    background-color: #ddd;
+    
+    -moz-border-radius: 8px 0px 8px 0px;
+    -webkit-border-radius: 8px 0px 8px 0px;
+    -khtml-border-radius: 8px 0px 8px 0px;
+    border-radius: 8px 0px 8px 0px;
+}
+
+/**** Detailed view ****/
+.docContainer{
+    /*display: inline-block;
+    float: left;*/
+}
+
+.docContainer, #movieContainer {
+    padding-bottom: 20px;
+}
+
+.docRow, #listRow, #artwork li{
+    background-color: #fff;
+    min-height: 100%;
+}
+
+.docRow, #movieContainer #info{
+    padding: 20px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -khtml-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#coverHolder{
+    overflow: hidden;
+    display: inline-block;
+    background-color: #000;
+    height: 180px;
+    line-height: 180px;
+    width: auto;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+#coverHolder #cover{
+    
+    margin: auto;
+    vertical-align: middle;
+}
+
+.docRow #movie{
+    float:left;
+}
+
+#cover{
+    /*display: inline-block;*/
+    width: 120px;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#coverLarge, #coverMain img{
+    -moz-box-shadow: 0 3px 8px -4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 3px 8px -4px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 8px -4px rgba(0,0,0,0.5);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.docColumn{
+    overflow:hidden;
+    vertical-align: top;
+    /*width: 530px;*/
+    padding-left: 12px;
+    /*padding-bottom: 20px;*/
+}
+
+#titleRow{
+    display: block;
+    /*width: 100%;*/
+}
+
+#listRow #movie, #titleRow #movie{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#titleRow #movie{
+   font-size:24px; 
+}
+
+#titleRow #year, #listRow #year{
+    display: inline-block;
+    vertical-align: top;
+    font-size:16px;
+}
+
+#titleRow #year{
+    font-size:16px;
+}
+
+#free, #mins, #featured, #categories{
+    font-size:10px;
+    top:50%;
+    padding: 2px 7px;
+    margin: 0px 2px;
+    
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#mins{
+    background-color: #c0c0c0;
+    color: #fff;
+    margin: 0;
+}
+
+#free{
+    background-color: #ffd14f;
+    color: #fff;
+}
+
+#featured{
+    background-color: #e44776;
+    color: #fff;
+}
+
+#free, #mins, #featured{
+    float: right;
+}
+#subtitle{
+    display: block;
+    clear: both;
+    font-size:14px;
+    color: #282828;
+}
+
+#close{
+    float: right;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 4px 8px;
+    /*color: #fff;
+    background-color: #26ADE4;*/
+}
+
+h3{
+    color: #282828;
+    font-size:17px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+
+p{
+    color: #7a7a7a;
+    font-size:13px;
+}
+
+#description{
+    clear: both;
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: SignikaLight, sans-serif;
+    padding-top: 10px;
+}
+
+.docButtons{
+    
+    clear:both;
+    text-align: right;
+    margin-top: -1px;
+    background-color: transparent;
+}
+
+#year, .grey {
+    color: #ddd;
+}
+
+.rightMargin{
+    margin-right: 32px;   
+}
+
+.smallText{
+    font-size: 10px;
+    vertical-align: top;
+    margin-left: 4px;
+}
+
+
+/**** Artwork view ****/
+#artwork{
+    list-style-type: none;
+    margin: 0px;
+    margin-right: -21px;
+    padding: 0px;
+}
+
+#artwork li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#caption{
+    font-size:14px;
+    /*font-family: sans-serif;*/
+    color: #7a7a7a;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+#coverLarge{
+    /*float: left;*/
+    vertical-align: top;
+    text-align: right;
+    /*border: thin silver solid;
+    height: 365px;*/
+}
+
+
+/*** list view ***/
+
+
+#listRow{
+    padding: 8px 20px;
+    margin-bottom: 2px;
+    
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#listRow #movie{
+   font-size:18px;
+}
+
+#listRow #year{
+    font-size:14px;
+}
+
+
+/*** movie view ***/
+
+#movieContainer #info{
+    background-color: #fff;
+    padding: 20px;
+}
+
+#coverMain{
+    display: inline-block;
+    vertical-align: top;
+    /*width: 120px;*/
+    margin-right: 20px;
+}
+
+#movieContainer #details{
+    display: inline-block;
+    vertical-align: top;
+    width: 697px;
+    height: 100%;
+}
+
+#movieContainer #description{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#categoriesWrapper{
+    vertical-align: bottom;
+    margin-top: 20px;
+    /*bottom: 0px;*/
+}
+
+#movieContainer #categories{
+    display: inline-block;
+    list-style-type: none;
+    /*vertical-align: bottom;*/
+    padding: 0px;
+    margin: 0px;
+    
+    /*background-color: #c0c0c0;*/
+    border: solid 1px #e4e4e4;
+    color: #c0c0c0;
+}
+
+#movieContainer #categories li{
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 8px;
+}
+
+#movieContainer #titleRow #movie{
+   font-size:28px; 
+    color: #28170b;
+   
+    -moz-text-shadow: 0px 1px 2px rgba(20,20,20,0.35);
+    -webkit-text-shadow: 0px 1px 2px rgba(20,20,20,0.35);
+    text-shadow: 0px 1px 2px rgba(20,20,20,0.35);
+}
