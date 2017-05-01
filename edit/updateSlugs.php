@@ -13,7 +13,6 @@
     $sql = "SELECT id, title, slug FROM docs WHERE slug=''";
     $result = mysql_query($sql) or die("Error: ". mysql_error(). " with query ". $sql);
     
-    //print_r($doc);
     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
       
       // generate new slug from documentary title
